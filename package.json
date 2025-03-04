@@ -2,9 +2,36 @@
   "name": "@org/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
   "private": true,
-  "dependencies": {},
+  "author": {
+    "name": "its.ferdiardiansa"
+  },
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "prepare": "husky",
+    "reset": "npx nx reset",
+    "type-check": "pnpm nx run-many -t type-check",
+    "format": "pnpm nx run-many -t format",
+    "format:write": "pnpm nx run-many -t format:write",
+    "lint": "pnpm nx run-many -t lint",
+    "lint:fix": "pnpm nx run-many -t lint:fix",
+    "test": "pnpm nx run-many -t test",
+    "test:coverage": "pnpm nx run-many -t test:coverage"
+  },
+  "lint-staged": {
+    "**/*.{js,ts,tsx}": [
+      "pnpm run format:write",
+      "pnpm run lint:fix",
+      "pnpm run test"
+    ],
+    "**/*": "prettier --write --ignore-unknown"
+  },
+  "dependencies": {
+    "@commitlint/cli": "^19.7.1",
+    "@commitlint/config-conventional": "^19.7.1",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.4.3"
+  },
   "devDependencies": {
     "@nx/js": "20.4.6",
     "@swc-node/register": "~1.9.1",
