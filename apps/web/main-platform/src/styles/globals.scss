@@ -1,4 +1,5 @@
 @use 'tailwindcss' as *;
+@use './colors.scss';
 @use './font.scss';
 
 $font-family: 'Avenir LT Pro', sans-serif;
