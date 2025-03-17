@@ -46,7 +46,7 @@ export default function PropertyCard({
         <div className="w-full">
           <div className="relative pt-[75%]">
             <div className="w-auto absolute top-2 left-2 z-2">
-              <div className="p-1 bg-info-700 rounded-md text-neutral-100 font-black">
+              <div className="py-1 px-2 inline bg-info-700 rounded-md text-neutral-100 font-black">
                 {reviewScore}
               </div>
             </div>
@@ -63,10 +63,10 @@ export default function PropertyCard({
           </div>
         </div>
 
-        <div className="flex flex-col flex-1 gap-6 justify-between p-2">
+        <div className="flex flex-col flex-1 gap-4 justify-between p-2">
           <div className="flex flex-col items-stretch justify-between gap-2">
             <div className="flex flex-col">
-              <h3 className="text-lg font-bold">{name}</h3>
+              <h3 className="text-lg font-bold line-clamp-2">{name}</h3>
               {(wishlistName || countryName) && (
                 <div className="text-sm text-neutral-600">
                   {wishlistName}
@@ -77,7 +77,14 @@ export default function PropertyCard({
 
             <div className="flex gap-2">
               <div className="flex items-center">
+                <div className="flex items-center">
+                  <span className="font-black text-xs text-neutral-50 bg-info-700 py-1 px-2 rounded-md">
+                    {reviewScoreWord}
+                  </span>
+                </div>
                 <div className="flex items-center text-sm font-thin">
+                  <span className="font-black text-xl">{' · '}</span>
+
                   <span className="mr-1.5">
                     <FaStar className="text-warning-700 mb-1" />
                   </span>
@@ -91,33 +98,30 @@ export default function PropertyCard({
                     reviews
                   </span>
                 </div>
-
-                <div className="flex items-center">
-                  <span>{' · '}</span>
-
-                  <span className="font-black text-xs text-neutral-50 bg-info-700 py-1 px-2 rounded-md">
-                    {reviewScoreWord}
-                  </span>
-                </div>
               </div>
             </div>
           </div>
 
-          <div className="flex flex-col items-end justify-end">
-            {strikethroughPrice && (
-              <span className="text-base text-sm text-danger-700 line-through">
+          <div className="flex items-end justify-end">
+            <div className="flex items-center mr-2">
+              <span className="text- mb-1">From</span>
+            </div>
+            <div className="flex flex-col items-end">
+              {strikethroughPrice && (
+                <span className="text-base text-sm text-danger-700 line-through">
+                  {formatCurrency({
+                    amount: strikethroughPrice.value,
+                    currency: strikethroughPrice.currency,
+                  })}
+                </span>
+              )}
+              <span className="font-black text-lg">
                 {formatCurrency({
-                  amount: strikethroughPrice.value,
-                  currency: strikethroughPrice.currency,
+                  amount: grossPrice.value,
+                  currency: grossPrice.currency,
                 })}
               </span>
-            )}
-            <span className="font-black text-base">
-              {formatCurrency({
-                amount: grossPrice.value,
-                currency: grossPrice.currency,
-              })}
-            </span>
+            </div>
           </div>
         </div>
       </Link>
