@@ -1,6 +1,6 @@
 import { FaSearch } from 'react-icons/fa'
 
-export const HotelSearchBox = () => {
+export default function HotelSearchBox() {
   return (
     <div className="flex bg-white rounded-full px-6 py-4">
       <div className="w-80 flex-1 text-slate-800 border-r border-slate-200">

@@ -1,6 +1,8 @@
-import { SearchTab } from '@/features/homepage/components/SearchTabs'
-import { SearchOptions } from '@/features/homepage/components/SearchOptions'
-import { FlightSearchBox } from '@/features/homepage/components/FlightSearchBox'
+import {
+  SearchTab,
+  SearchOptions,
+} from '@/features/homepage/components/travel-search'
+import FlightSearchBox from '@/features/homepage/components/flight-search-box'
 
 export const TravelSearchBar = () => {
   return (

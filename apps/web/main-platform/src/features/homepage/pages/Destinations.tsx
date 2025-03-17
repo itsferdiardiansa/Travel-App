@@ -1,7 +1,5 @@
 import Image from 'next/image'
 
-// import DestinationOne from "@/assets/images/destinations/Image.png"
-
 const destinationData = [
   {
     name: 'Yogyakarta',
