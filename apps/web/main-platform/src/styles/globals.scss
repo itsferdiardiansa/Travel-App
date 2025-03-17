@@ -5,8 +5,8 @@
 $font-family: 'Avenir LT Pro', sans-serif;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: var(--color-neutral-50);
+  --foreground: var(--color-neutral-700);
 }
 
 @theme inline {
@@ -16,10 +16,11 @@ $font-family: 'Avenir LT Pro', sans-serif;
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
+// @media (prefers-color-scheme: dark) {
+div[data-theme='dark'] {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: var(--color-neutral-700);
+    --foreground: var(--color-neutral-50);
   }
 }
 

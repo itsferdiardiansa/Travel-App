@@ -5,7 +5,7 @@ import BrandLogo from '@/assets/images/brand-logo-default.svg'
 
 export const Navbar = () => {
   return (
-    <div className="max-w-screen-xl h-full mx-auto flex items-stretch justify-between grid grid-cols-3">
+    <div className="max-w-screen-xl h-full mx-auto flex items-stretch justify-between grid grid-cols-3 text-neutral-50">
       <div className="flex">
         <Link href={'/'}>
           <Image src={BrandLogo} alt="U Travel" />

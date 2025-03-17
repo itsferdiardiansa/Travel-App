@@ -8,7 +8,9 @@ export const BaseLayout = ({ children }: PropsWithChildren) => {
         <Navbar />
       </div>
 
-      <div className="relative w-full text-sm">{children}</div>
+      <div className="max-w-screen-xl mx-auto relative w-full text-sm flex flex-col gap-10">
+        {children}
+      </div>
     </div>
   )
 }

@@ -1,0 +1,1221 @@
+{
+  "status": true,
+  "message": "Success",
+  "timestamp": 1741972988077,
+  "data": {
+    "hotels": [
+      {
+        "hotel_id": 2931961,
+        "accessibilityLabel": "Novotel Samator Surabaya Timur.\n4 out of 5 stars.\n8.1 Very good 424 reviews.\n‎Rungkut‬ • ‎4.5 km from centre‬.\n2 beds.\n642 AED.\nIncludes taxes and charges.\nNo prepayment needed.",
+        "property": {
+          "latitude": -7.310807,
+          "currency": "IDR",
+          "reviewCount": 424,
+          "rankingPosition": 0,
+          "wishlistName": "Surabaya",
+          "mainPhotoId": 652100943,
+          "isFirstPage": true,
+          "reviewScoreWord": "Very good",
+          "checkout": {
+            "fromTime": "00:00",
+            "untilTime": "12:00"
+          },
+          "id": 2931961,
+          "optOutFromGalleryChanges": 0,
+          "qualityClass": 0,
+          "position": 0,
+          "countryCode": "id",
+          "reviewScore": 8.1,
+          "name": "Novotel Samator Surabaya Timur",
+          "propertyClass": 4,
+          "isPreferred": true,
+          "checkoutDate": "2025-03-20",
+          "longitude": 112.77313,
+          "blockIds": [
+            "293196103_256893427_2_2_0_461324"
+          ],
+          "ufi": -2698521,
+          "priceBreakdown": {
+            "taxExceptions": [],
+            "benefitBadges": [],
+            "grossPrice": {
+              "value": 641.758771154813,
+              "currency": "AED"
+            }
+          },
+          "accuratePropertyClass": 4,
+          "checkin": {
+            "untilTime": "00:00",
+            "fromTime": "14:00"
+          },
+          "checkinDate": "2025-03-16",
+          "photoUrls": [
+            "https://cf.bstatic.com/xdata/images/hotel/square500/652100943.jpg?k=c5788e01e3f5fa330a76e7cdffb171949f65a7710c20707596866dcd69117cf9&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/square1024/652100943.jpg?k=c5788e01e3f5fa330a76e7cdffb171949f65a7710c20707596866dcd69117cf9&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/square2000/652100943.jpg?k=c5788e01e3f5fa330a76e7cdffb171949f65a7710c20707596866dcd69117cf9&o="
+          ]
+        }
+      },
+      {
+        "hotel_id": 706410,
+        "accessibilityLabel": "Ibis Surabaya City Center.\n3 out of 5 stars.\n7.7 Good 582 reviews.\n‎Genteng‬ • ‎2.7 km from centre‬.\n Hotel room : 1 bed.\n371 AED.\nIncludes taxes and charges.",
+        "property": {
+          "position": 1,
+          "qualityClass": 0,
+          "optOutFromGalleryChanges": 0,
+          "reviewScore": 7.7,
+          "countryCode": "id",
+          "name": "Ibis Surabaya City Center",
+          "propertyClass": 3,
+          "isPreferred": true,
+          "checkoutDate": "2025-03-20",
+          "longitude": 112.741654962301,
+          "blockIds": [
+            "70641002_94501515_2_2_0_416202"
+          ],
+          "ufi": -2698521,
+          "priceBreakdown": {
+            "benefitBadges": [],
+            "taxExceptions": [],
+            "grossPrice": {
+              "currency": "AED",
+              "value": 371.175741208806
+            }
+          },
+          "accuratePropertyClass": 3,
+          "checkin": {
+            "fromTime": "14:00",
+            "untilTime": "00:00"
+          },
+          "checkinDate": "2025-03-16",
+          "photoUrls": [
+            "https://cf.bstatic.com/xdata/images/hotel/square500/411939387.jpg?k=4f1e7d2b1d4ee5b8252678f163b7a62d34346081e314fe547ba0b74201c15efe&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/square1024/411939387.jpg?k=4f1e7d2b1d4ee5b8252678f163b7a62d34346081e314fe547ba0b74201c15efe&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/square2000/411939387.jpg?k=4f1e7d2b1d4ee5b8252678f163b7a62d34346081e314fe547ba0b74201c15efe&o="
+          ],
+          "currency": "IDR",
+          "latitude": -7.26897067077115,
+          "reviewCount": 582,
+          "wishlistName": "Surabaya",
+          "rankingPosition": 1,
+          "mainPhotoId": 411939387,
+          "isFirstPage": true,
+          "reviewScoreWord": "Good",
+          "checkout": {
+            "untilTime": "12:00",
+            "fromTime": "00:00"
+          },
+          "id": 706410
+        }
+      },
+      {
+        "hotel_id": 5684731,
+        "accessibilityLabel": "HARRIS Hotel & Conventions Bundaran Satelit Surabaya.\n4 out of 5 stars.\n8.9 Fabulous 139 reviews.\n‎Sukomanunggal‬ • ‎3.8 km from centre‬.\n Hotel room : 2 beds.\nOriginal price 644 AED. Current price 612 AED..\nIncludes taxes and charges.",
+        "property": {
+          "blockIds": [
+            "568473101_219173108_0_42_0_272610"
+          ],
+          "ufi": -2698521,
+          "accuratePropertyClass": 4,
+          "checkin": {
+            "untilTime": "00:00",
+            "fromTime": "15:00"
+          },
+          "priceBreakdown": {
+            "grossPrice": {
+              "currency": "AED",
+              "value": 611.769541998094
+            },
+            "strikethroughPrice": {
+              "value": 643.967938945362,
+              "currency": "AED"
+            },
+            "benefitBadges": [],
+            "taxExceptions": []
+          },
+          "checkinDate": "2025-03-16",
+          "photoUrls": [
+            "https://cf.bstatic.com/xdata/images/hotel/square500/228303797.jpg?k=16dc1917335bf7f7147692d017650a5e42edd75346693f69be824bd3d94989dd&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/square1024/228303797.jpg?k=16dc1917335bf7f7147692d017650a5e42edd75346693f69be824bd3d94989dd&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/square2000/228303797.jpg?k=16dc1917335bf7f7147692d017650a5e42edd75346693f69be824bd3d94989dd&o="
+          ],
+          "optOutFromGalleryChanges": 0,
+          "qualityClass": 0,
+          "position": 2,
+          "name": "HARRIS Hotel & Conventions Bundaran Satelit Surabaya",
+          "countryCode": "id",
+          "reviewScore": 8.9,
+          "checkoutDate": "2025-03-20",
+          "isPreferred": true,
+          "propertyClass": 4,
+          "longitude": 112.702501,
+          "isFirstPage": true,
+          "mainPhotoId": 228303797,
+          "checkout": {
+            "fromTime": "00:00",
+            "untilTime": "12:00"
+          },
+          "reviewScoreWord": "Fabulous",
+          "id": 5684731,
+          "latitude": -7.286804,
+          "currency": "IDR",
+          "rankingPosition": 2,
+          "wishlistName": "Surabaya",
+          "reviewCount": 13900
+        }
+      },
+      {
+        "hotel_id": 244981,
+        "accessibilityLabel": "Hotel Majapahit Surabaya MGallery.\n5 out of 5 stars.\n9.1 Superb 959 reviews.\n‎Genteng‬ • ‎3.6 km from centre‬.\n Hotel room : 1 bed.\n1205 AED.\nIncludes taxes and charges.\nNo prepayment needed.",
+        "property": {
+          "blockIds": [
+            "24498107_382578786_2_2_0"
+          ],
+          "ufi": -2698521,
+          "accuratePropertyClass": 5,
+          "checkin": {
+            "untilTime": "00:00",
+            "fromTime": "14:00"
+          },
+          "priceBreakdown": {
+            "benefitBadges": [],
+            "taxExceptions": [],
+            "grossPrice": {
+              "currency": "AED",
+              "value": 1205.02492525552
+            }
+          },
+          "checkinDate": "2025-03-16",
+          "photoUrls": [
+            "https://cf.bstatic.com/xdata/images/hotel/square500/603208639.jpg?k=ce19a0ff744e8671eb25038b8e994ec16807485c5ee76161f9c22314c949cbab&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/square1024/603208639.jpg?k=ce19a0ff744e8671eb25038b8e994ec16807485c5ee76161f9c22314c949cbab&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/square2000/603208639.jpg?k=ce19a0ff744e8671eb25038b8e994ec16807485c5ee76161f9c22314c949cbab&o="
+          ],
+          "position": 3,
+          "qualityClass": 0,
+          "optOutFromGalleryChanges": 0,
+          "name": "Hotel Majapahit Surabaya MGallery",
+          "reviewScore": 9.1,
+          "countryCode": "id",
+          "isPreferred": true,
+          "checkoutDate": "2025-03-20",
+          "propertyClass": 5,
+          "longitude": 112.739794850349,
+          "isFirstPage": true,
+          "mainPhotoId": 603208639,
+          "reviewScoreWord": "Superb",
+          "checkout": {
+            "untilTime": "12:00",
+            "fromTime": "00:00"
+          },
+          "id": 244981,
+          "currency": "IDR",
+          "latitude": -7.25999353991401,
+          "wishlistName": "Surabaya",
+          "rankingPosition": 3,
+          "reviewCount": 959
+        }
+      },
+      {
+        "hotel_id": 360879,
+        "accessibilityLabel": "Wyndham Surabaya.\n5 out of 5 stars.\n8.0 Very good 408 reviews.\n‎Genteng‬ • ‎2.8 km from centre‬.\nEarly 2025 Deal.\n Hotel room : 1 bed.\n680 AED.\nIncludes taxes and charges.\nNo prepayment needed.",
+        "property": {
+          "ufi": -2698521,
+          "blockIds": [
+            "36087918_113828168_2_2_0"
+          ],
+          "checkinDate": "2025-03-16",
+          "photoUrls": [
+            "https://cf.bstatic.com/xdata/images/hotel/square500/316880336.jpg?k=03d44a66250903ace345968127eaab13bceb2197415b2f7e66663288733aafda&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/square1024/316880336.jpg?k=03d44a66250903ace345968127eaab13bceb2197415b2f7e66663288733aafda&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/square2000/316880336.jpg?k=03d44a66250903ace345968127eaab13bceb2197415b2f7e66663288733aafda&o="
+          ],
+          "priceBreakdown": {
+            "grossPrice": {
+              "currency": "AED",
+              "value": 679.743935553438
+            },
+            "benefitBadges": [
+              {
+                "variant": "constructive",
+                "identifier": "Early Year Deals",
+                "text": "Early 2025 Deal",
+                "explanation": "Early 2025 Deal"
+              }
+            ],
+            "taxExceptions": []
+          },
+          "accuratePropertyClass": 5,
+          "checkin": {
+            "untilTime": "00:00",
+            "fromTime": "14:00"
+          },
+          "countryCode": "id",
+          "reviewScore": 8,
+          "name": "Wyndham Surabaya",
+          "qualityClass": 0,
+          "optOutFromGalleryChanges": 0,
+          "position": 4,
+          "longitude": 112.741404175758,
+          "propertyClass": 5,
+          "isPreferred": true,
+          "checkoutDate": "2025-03-20",
+          "mainPhotoId": 316880336,
+          "isFirstPage": true,
+          "id": 360879,
+          "reviewScoreWord": "Very good",
+          "checkout": {
+            "untilTime": "12:00",
+            "fromTime": "00:00"
+          },
+          "reviewCount": 408,
+          "rankingPosition": 4,
+          "wishlistName": "Surabaya",
+          "latitude": -7.26770153778449,
+          "currency": "IDR"
+        }
+      },
+      {
+        "hotel_id": 6941678,
+        "accessibilityLabel": "DoubleTree by Hilton Surabaya.\n5 out of 5 stars.\n8.9 Fabulous 417 reviews.\n‎Genteng‬ • ‎3.9 km from centre‬.\n1 bed.\n1231 AED.\nIncludes taxes and charges.\nFree cancellation.\nNo prepayment needed.",
+        "property": {
+          "checkinDate": "2025-03-16",
+          "photoUrls": [
+            "https://cf.bstatic.com/xdata/images/hotel/square500/483822849.jpg?k=de2860a235a769d518acb6c0febed643111d8fd27b80a346d02cfea5d3230773&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/square1024/483822849.jpg?k=de2860a235a769d518acb6c0febed643111d8fd27b80a346d02cfea5d3230773&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/square2000/483822849.jpg?k=de2860a235a769d518acb6c0febed643111d8fd27b80a346d02cfea5d3230773&o="
+          ],
+          "accuratePropertyClass": 5,
+          "checkin": {
+            "untilTime": "00:00",
+            "fromTime": "14:00"
+          },
+          "priceBreakdown": {
+            "grossPrice": {
+              "value": 1231.029683286,
+              "currency": "AED"
+            },
+            "taxExceptions": [],
+            "benefitBadges": []
+          },
+          "ufi": -2698521,
+          "blockIds": [
+            "694167801_285585951_2_42_0_38932"
+          ],
+          "longitude": 112.736586,
+          "isPreferred": true,
+          "checkoutDate": "2025-03-20",
+          "propertyClass": 5,
+          "name": "DoubleTree by Hilton Surabaya",
+          "countryCode": "id",
+          "reviewScore": 8.9,
+          "qualityClass": 0,
+          "position": 5,
+          "optOutFromGalleryChanges": 0,
+          "id": 6941678,
+          "checkout": {
+            "untilTime": "12:00",
+            "fromTime": "00:00"
+          },
+          "reviewScoreWord": "Fabulous",
+          "isFirstPage": true,
+          "mainPhotoId": 483822849,
+          "rankingPosition": 5,
+          "wishlistName": "Surabaya",
+          "reviewCount": 417,
+          "latitude": -7.257,
+          "currency": "IDR"
+        }
+      },
+      {
+        "hotel_id": 239508,
+        "accessibilityLabel": "Shangri-la Surabaya.\n5 out of 5 stars.\n8.8 Fabulous 322 reviews.\n‎Sawahan‬ • ‎2.3 km from centre‬.\n Hotel room : 1 bed.\n1583 AED.\nIncludes taxes and charges.\nNo prepayment needed.",
+        "property": {
+          "photoUrls": [
+            "https://cf.bstatic.com/xdata/images/hotel/square500/14075915.jpg?k=1dd8464114e61f05a0f308fa2ad51351a440020d745a60e72c3b6aae66e08440&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/square1024/14075915.jpg?k=1dd8464114e61f05a0f308fa2ad51351a440020d745a60e72c3b6aae66e08440&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/square2000/14075915.jpg?k=1dd8464114e61f05a0f308fa2ad51351a440020d745a60e72c3b6aae66e08440&o="
+          ],
+          "checkinDate": "2025-03-16",
+          "priceBreakdown": {
+            "taxExceptions": [],
+            "benefitBadges": [],
+            "grossPrice": {
+              "currency": "AED",
+              "value": 1582.75244993915
+            }
+          },
+          "checkin": {
+            "untilTime": "23:00",
+            "fromTime": "14:00"
+          },
+          "accuratePropertyClass": 5,
+          "ufi": -2698521,
+          "blockIds": [
+            "23950802_204240099_2_2_0_457041"
+          ],
+          "longitude": 112.715928554535,
+          "propertyClass": 5,
+          "isPreferred": true,
+          "checkoutDate": "2025-03-20",
+          "reviewScore": 8.8,
+          "countryCode": "id",
+          "name": "Shangri-la Surabaya",
+          "qualityClass": 0,
+          "position": 6,
+          "optOutFromGalleryChanges": 0,
+          "id": 239508,
+          "checkout": {
+            "untilTime": "12:00",
+            "fromTime": "06:00"
+          },
+          "reviewScoreWord": "Fabulous",
+          "mainPhotoId": 14075915,
+          "isFirstPage": true,
+          "reviewCount": 322,
+          "wishlistName": "Surabaya",
+          "rankingPosition": 6,
+          "currency": "IDR",
+          "latitude": -7.289994653532
+        }
+      },
+      {
+        "hotel_id": 1637856,
+        "accessibilityLabel": "POP! Hotel Diponegoro.\n2 out of 5 stars.\n7.2 Good 426 reviews.\n‎Wonokromo‬ • ‎100 m from centre‬.\n Hotel room : Beds: 1 double or 2 singles.\n267 AED.\nIncludes taxes and charges.",
+        "property": {
+          "reviewCount": 426,
+          "wishlistName": "Surabaya",
+          "rankingPosition": 7,
+          "currency": "IDR",
+          "latitude": -7.29301039490309,
+          "id": 1637856,
+          "reviewScoreWord": "Good",
+          "checkout": {
+            "fromTime": "00:00",
+            "untilTime": "12:00"
+          },
+          "mainPhotoId": 345331111,
+          "isFirstPage": true,
+          "longitude": 112.737189953373,
+          "propertyClass": 2,
+          "isPreferred": true,
+          "checkoutDate": "2025-03-20",
+          "reviewScore": 7.2,
+          "countryCode": "id",
+          "name": "POP! Hotel Diponegoro",
+          "qualityClass": 0,
+          "position": 7,
+          "optOutFromGalleryChanges": 0,
+          "checkinDate": "2025-03-16",
+          "photoUrls": [
+            "https://cf.bstatic.com/xdata/images/hotel/square500/345331111.jpg?k=82f735cdc7718348fc8566e073f187c241c1cf2bd3da087e8ad2f0e00eb83cc5&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/square1024/345331111.jpg?k=82f735cdc7718348fc8566e073f187c241c1cf2bd3da087e8ad2f0e00eb83cc5&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/square2000/345331111.jpg?k=82f735cdc7718348fc8566e073f187c241c1cf2bd3da087e8ad2f0e00eb83cc5&o="
+          ],
+          "priceBreakdown": {
+            "benefitBadges": [],
+            "taxExceptions": [],
+            "grossPrice": {
+              "value": 266.531174730164,
+              "currency": "AED"
+            }
+          },
+          "accuratePropertyClass": 2,
+          "checkin": {
+            "fromTime": "14:00",
+            "untilTime": "00:00"
+          },
+          "ufi": -2698521,
+          "blockIds": [
+            "163785601_89301713_0_34_0_37281"
+          ]
+        }
+      },
+      {
+        "hotel_id": 3783781,
+        "accessibilityLabel": "Oakwood Hotel & Residence Surabaya.\n5 out of 5 stars.\n8.6 Fabulous 148 reviews.\n‎Mulyorejo‬ • ‎4.8 km from centre‬.\n Private room : 1 bed.\n1207 AED.\nIncludes taxes and charges.",
+        "property": {
+          "accuratePropertyClass": 5,
+          "checkin": {
+            "fromTime": "14:00",
+            "untilTime": "00:00"
+          },
+          "priceBreakdown": {
+            "grossPrice": {
+              "currency": "AED",
+              "value": 1207.43988552255
+            },
+            "taxExceptions": [],
+            "benefitBadges": []
+          },
+          "photoUrls": [
+            "https://cf.bstatic.com/xdata/images/hotel/square500/156778110.jpg?k=ab90859b607dec9e2b9e6c3334ccd913c05aac29112446edd6184e816357f49e&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/square1024/156778110.jpg?k=ab90859b607dec9e2b9e6c3334ccd913c05aac29112446edd6184e816357f49e&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/square2000/156778110.jpg?k=ab90859b607dec9e2b9e6c3334ccd913c05aac29112446edd6184e816357f49e&o="
+          ],
+          "checkinDate": "2025-03-16",
+          "blockIds": [
+            "378378136_363461317_2_2_0_451145"
+          ],
+          "ufi": -2698521,
+          "checkoutDate": "2025-03-20",
+          "isPreferred": true,
+          "propertyClass": 5,
+          "longitude": 112.778898,
+          "position": 8,
+          "qualityClass": 0,
+          "optOutFromGalleryChanges": 0,
+          "name": "Oakwood Hotel & Residence Surabaya",
+          "reviewScore": 8.6,
+          "countryCode": "id",
+          "reviewScoreWord": "Fabulous",
+          "checkout": {
+            "untilTime": "12:00",
+            "fromTime": "00:00"
+          },
+          "id": 3783781,
+          "isFirstPage": true,
+          "mainPhotoId": 156778110,
+          "currency": "IDR",
+          "latitude": -7.280638,
+          "wishlistName": "Surabaya",
+          "rankingPosition": 8,
+          "reviewCount": 148
+        }
+      },
+      {
+        "hotel_id": 239284,
+        "accessibilityLabel": "Java Paragon Hotel & Residences.\n4 out of 5 stars.\n7.5 Good 207 reviews.\n‎Dukuh Pakis‬ • ‎2.4 km from centre‬.\n Hotel room : 1 bed.\nOriginal price 1330 AED. Current price 572 AED..\nIncludes taxes and charges.\nNo prepayment needed.",
+        "property": {
+          "accuratePropertyClass": 4,
+          "checkin": {
+            "untilTime": "23:30",
+            "fromTime": "14:00"
+          },
+          "priceBreakdown": {
+            "strikethroughPrice": {
+              "value": 1329.73431632781,
+              "currency": "AED"
+            },
+            "benefitBadges": [],
+            "taxExceptions": [],
+            "grossPrice": {
+              "value": 571.785840988951,
+              "currency": "AED"
+            }
+          },
+          "checkinDate": "2025-03-16",
+          "photoUrls": [
+            "https://cf.bstatic.com/xdata/images/hotel/square500/68717308.jpg?k=1a509c87f118a4e887cec65fb870cc2e62b5c9a007530f189771cda01568156b&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/square1024/68717308.jpg?k=1a509c87f118a4e887cec65fb870cc2e62b5c9a007530f189771cda01568156b&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/square2000/68717308.jpg?k=1a509c87f118a4e887cec65fb870cc2e62b5c9a007530f189771cda01568156b&o="
+          ],
+          "blockIds": [
+            "23928401_265006494_0_2_0_204767"
+          ],
+          "ufi": -2698521,
+          "isPreferred": true,
+          "checkoutDate": "2025-03-20",
+          "propertyClass": 4,
+          "longitude": 112.715314328671,
+          "qualityClass": 0,
+          "position": 9,
+          "optOutFromGalleryChanges": 0,
+          "name": "Java Paragon Hotel & Residences",
+          "countryCode": "id",
+          "reviewScore": 7.5,
+          "checkout": {
+            "fromTime": "12:00",
+            "untilTime": "12:30"
+          },
+          "reviewScoreWord": "Good",
+          "id": 239284,
+          "isFirstPage": true,
+          "mainPhotoId": 68717308,
+          "latitude": -7.29135152059856,
+          "currency": "IDR",
+          "rankingPosition": 9,
+          "wishlistName": "Surabaya",
+          "reviewCount": 207
+        }
+      },
+      {
+        "hotel_id": 251669,
+        "accessibilityLabel": "Hotel Santika Pandegiling - Surabaya.\n3 out of 5 stars.\n7.9 Good 152 reviews.\n‎Tegalsari‬ • ‎1.7 km from centre‬.\n Hotel room : 1 bed.\nOriginal price 577 AED. Current price 444 AED..\nIncludes taxes and charges.",
+        "property": {
+          "reviewCount": 152,
+          "rankingPosition": 10,
+          "wishlistName": "Surabaya",
+          "latitude": -7.27730109615413,
+          "currency": "IDR",
+          "mainPhotoId": 317258212,
+          "isFirstPage": true,
+          "id": 251669,
+          "reviewScoreWord": "Good",
+          "checkout": {
+            "untilTime": "12:00",
+            "fromTime": "00:00"
+          },
+          "countryCode": "id",
+          "reviewScore": 7.9,
+          "name": "Hotel Santika Pandegiling - Surabaya",
+          "qualityClass": 0,
+          "position": 10,
+          "optOutFromGalleryChanges": 0,
+          "longitude": 112.740288376808,
+          "propertyClass": 3,
+          "isPreferred": true,
+          "checkoutDate": "2025-03-20",
+          "ufi": -2698521,
+          "blockIds": [
+            "25166902_92092351_0_1_0"
+          ],
+          "checkinDate": "2025-03-16",
+          "photoUrls": [
+            "https://cf.bstatic.com/xdata/images/hotel/square500/317258212.jpg?k=e05311e838e0f6f3b87118f8b4cc65ab5eb56f158878b8f63b7344cbe7f39612&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/square1024/317258212.jpg?k=e05311e838e0f6f3b87118f8b4cc65ab5eb56f158878b8f63b7344cbe7f39612&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/square2000/317258212.jpg?k=e05311e838e0f6f3b87118f8b4cc65ab5eb56f158878b8f63b7344cbe7f39612&o="
+          ],
+          "priceBreakdown": {
+            "grossPrice": {
+              "currency": "AED",
+              "value": 444.203717885019
+            },
+            "strikethroughPrice": {
+              "value": 576.88794530522,
+              "currency": "AED"
+            },
+            "taxExceptions": [],
+            "benefitBadges": []
+          },
+          "checkin": {
+            "untilTime": "00:00",
+            "fromTime": "14:00"
+          },
+          "accuratePropertyClass": 3
+        }
+      },
+      {
+        "hotel_id": 1303858,
+        "accessibilityLabel": "The Southern Hotel Surabaya Formerly Ibis Styles Surabaya Jemursari.\n4 out of 5 stars.\n8.0 Very good 191 reviews.\n‎Wonocolo‬ • ‎3.4 km from centre‬.\nMobile-only price.\n Hotel room : 1 bed.\nOriginal price 736 AED. Current price 662 AED..\nIncludes taxes and charges.",
+        "property": {
+          "checkin": {
+            "fromTime": "14:00",
+            "untilTime": "00:00"
+          },
+          "accuratePropertyClass": 4,
+          "priceBreakdown": {
+            "benefitBadges": [
+              {
+                "identifier": "Mobile Rate",
+                "explanation": "Mobile-only price",
+                "text": "Mobile-only price",
+                "variant": "constructive"
+              }
+            ],
+            "taxExceptions": [],
+            "strikethroughPrice": {
+              "value": 735.912250228116,
+              "currency": "AED"
+            },
+            "grossPrice": {
+              "currency": "AED",
+              "value": 662.321025205305
+            }
+          },
+          "checkinDate": "2025-03-16",
+          "photoUrls": [
+            "https://cf.bstatic.com/xdata/images/hotel/square500/252169508.jpg?k=a4309eb1c3f5a17e76d18150b63367a4be127ef6e3100591f9d1d7210df22a7d&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/square1024/252169508.jpg?k=a4309eb1c3f5a17e76d18150b63367a4be127ef6e3100591f9d1d7210df22a7d&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/square2000/252169508.jpg?k=a4309eb1c3f5a17e76d18150b63367a4be127ef6e3100591f9d1d7210df22a7d&o="
+          ],
+          "blockIds": [
+            "130385801_94587261_0_2_0_385180"
+          ],
+          "ufi": -2698521,
+          "isPreferred": true,
+          "checkoutDate": "2025-03-20",
+          "propertyClass": 4,
+          "longitude": 112.744977813492,
+          "qualityClass": 0,
+          "position": 11,
+          "optOutFromGalleryChanges": 0,
+          "name": "The Southern Hotel Surabaya Formerly Ibis Styles Surabaya Jemursari",
+          "reviewScore": 8,
+          "countryCode": "id",
+          "checkout": {
+            "fromTime": "00:00",
+            "untilTime": "12:00"
+          },
+          "reviewScoreWord": "Very good",
+          "id": 1303858,
+          "isFirstPage": true,
+          "mainPhotoId": 252169508,
+          "currency": "IDR",
+          "latitude": -7.32165386915305,
+          "wishlistName": "Surabaya",
+          "rankingPosition": 11,
+          "reviewCount": 191
+        }
+      },
+      {
+        "hotel_id": 7484196,
+        "accessibilityLabel": "Aston Inn Jemursari.\n3 out of 5 stars.\n7.9 Good 134 reviews.\n‎Wonocolo‬ • ‎2.6 km from centre‬.\nMobile-only price.\n Entire studio – 20 m² : 2 beds • 1 bedroom • 1 bathroom.\nOriginal price 560 AED. Current price 403 AED..\nIncludes taxes and charges.\nNo prepayment needed.",
+        "property": {
+          "propertyClass": 3,
+          "isPreferred": true,
+          "checkoutDate": "2025-03-20",
+          "longitude": 112.749716,
+          "position": 12,
+          "qualityClass": 0,
+          "optOutFromGalleryChanges": 0,
+          "reviewScore": 7.9,
+          "countryCode": "id",
+          "name": "Aston Inn Jemursari",
+          "priceBreakdown": {
+            "grossPrice": {
+              "value": 402.882441802692,
+              "currency": "AED"
+            },
+            "benefitBadges": [
+              {
+                "variant": "constructive",
+                "explanation": "Mobile-only price",
+                "text": "Mobile-only price",
+                "identifier": "Mobile Rate"
+              }
+            ],
+            "taxExceptions": [],
+            "strikethroughPrice": {
+              "currency": "AED",
+              "value": 559.558946948183
+            }
+          },
+          "accuratePropertyClass": 3,
+          "checkin": {
+            "fromTime": "14:00",
+            "untilTime": "23:30"
+          },
+          "checkinDate": "2025-03-16",
+          "photoUrls": [
+            "https://cf.bstatic.com/xdata/images/hotel/square500/326016039.jpg?k=1a9769b75368bd9b8cea1e17f90baffc8e5e6762ea6ca71ff25d398a25bba421&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/square1024/326016039.jpg?k=1a9769b75368bd9b8cea1e17f90baffc8e5e6762ea6ca71ff25d398a25bba421&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/square2000/326016039.jpg?k=1a9769b75368bd9b8cea1e17f90baffc8e5e6762ea6ca71ff25d398a25bba421&o="
+          ],
+          "blockIds": [
+            "748419601_407445839_0_2_0_378078"
+          ],
+          "ufi": -2698521,
+          "currency": "IDR",
+          "latitude": -7.311514,
+          "reviewCount": 134,
+          "wishlistName": "Surabaya",
+          "rankingPosition": 12,
+          "reviewScoreWord": "Good",
+          "checkout": {
+            "untilTime": "12:00",
+            "fromTime": "00:00"
+          },
+          "id": 7484196,
+          "mainPhotoId": 326016039,
+          "isFirstPage": true
+        }
+      },
+      {
+        "hotel_id": 240369,
+        "accessibilityLabel": "Mercure Surabaya.\n4 out of 5 stars.\n7.4 Good 92 reviews.\n‎Tegalsari‬ • ‎850 m from centre‬.\n1 bed.\n505 AED.\nIncludes taxes and charges.\nNo prepayment needed.",
+        "property": {
+          "id": 240369,
+          "reviewScoreWord": "Good",
+          "checkout": {
+            "fromTime": "12:00",
+            "untilTime": "13:00"
+          },
+          "isFirstPage": true,
+          "mainPhotoId": 252001608,
+          "wishlistName": "Surabaya",
+          "rankingPosition": 13,
+          "reviewCount": 92,
+          "currency": "IDR",
+          "latitude": -7.28530677921393,
+          "photoUrls": [
+            "https://cf.bstatic.com/xdata/images/hotel/square500/252001608.jpg?k=5e91d0517572c9e8f42aeced8e046124b273f4c6ebe3caabda5dd031ea6ba578&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/square1024/252001608.jpg?k=5e91d0517572c9e8f42aeced8e046124b273f4c6ebe3caabda5dd031ea6ba578&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/square2000/252001608.jpg?k=5e91d0517572c9e8f42aeced8e046124b273f4c6ebe3caabda5dd031ea6ba578&o="
+          ],
+          "checkinDate": "2025-03-16",
+          "accuratePropertyClass": 4,
+          "checkin": {
+            "fromTime": "14:00",
+            "untilTime": "23:30"
+          },
+          "priceBreakdown": {
+            "grossPrice": {
+              "value": 504.800090267874,
+              "currency": "AED"
+            },
+            "taxExceptions": [],
+            "benefitBadges": []
+          },
+          "ufi": -2698521,
+          "blockIds": [
+            "24036909_382578748_2_42_0"
+          ],
+          "longitude": 112.73954808712,
+          "isPreferred": true,
+          "checkoutDate": "2025-03-20",
+          "propertyClass": 4,
+          "name": "Mercure Surabaya",
+          "reviewScore": 7.4,
+          "countryCode": "id",
+          "optOutFromGalleryChanges": 0,
+          "qualityClass": 0,
+          "position": 13
+        }
+      },
+      {
+        "hotel_id": 236421,
+        "accessibilityLabel": "Surabaya Suites Hotel Powered by Archipelago.\n4 out of 5 stars.\n7.5 Good 300 reviews.\n‎Genteng‬ • ‎3.4 km from centre‬.\nMobile-only price.\n Private suite : 1 bed.\nOriginal price 515 AED. Current price 385 AED..\nIncludes taxes and charges.\nNo prepayment needed.",
+        "property": {
+          "reviewCount": 300,
+          "wishlistName": "Surabaya",
+          "rankingPosition": 14,
+          "currency": "IDR",
+          "latitude": -7.26367061993424,
+          "id": 236421,
+          "reviewScoreWord": "Good",
+          "checkout": {
+            "untilTime": "12:00",
+            "fromTime": "03:00"
+          },
+          "mainPhotoId": 245829789,
+          "isFirstPage": true,
+          "longitude": 112.748297452927,
+          "propertyClass": 4,
+          "isPreferred": true,
+          "checkoutDate": "2025-03-20",
+          "reviewScore": 7.5,
+          "countryCode": "id",
+          "name": "Surabaya Suites Hotel Powered by Archipelago",
+          "position": 14,
+          "qualityClass": 0,
+          "optOutFromGalleryChanges": 0,
+          "checkinDate": "2025-03-16",
+          "photoUrls": [
+            "https://cf.bstatic.com/xdata/images/hotel/square500/245829789.jpg?k=bc8d4651c65b09f921941608ab6874eded4fed351fc4806f41269086595697f5&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/square1024/245829789.jpg?k=bc8d4651c65b09f921941608ab6874eded4fed351fc4806f41269086595697f5&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/square2000/245829789.jpg?k=bc8d4651c65b09f921941608ab6874eded4fed351fc4806f41269086595697f5&o="
+          ],
+          "priceBreakdown": {
+            "grossPrice": {
+              "value": 384.835240313748,
+              "currency": "AED"
+            },
+            "benefitBadges": [
+              {
+                "identifier": "Mobile Rate",
+                "explanation": "Mobile-only price",
+                "text": "Mobile-only price",
+                "variant": "constructive"
+              }
+            ],
+            "taxExceptions": [],
+            "strikethroughPrice": {
+              "value": 515.17435115629,
+              "currency": "AED"
+            }
+          },
+          "checkin": {
+            "untilTime": "23:30",
+            "fromTime": "14:00"
+          },
+          "accuratePropertyClass": 4,
+          "ufi": -2698521,
+          "blockIds": [
+            "23642121_200840677_2_2_0_368358"
+          ]
+        }
+      },
+      {
+        "hotel_id": 1409960,
+        "accessibilityLabel": "Holiday Inn Express Surabaya CenterPoint by IHG.\n4 out of 5 stars.\n8.1 Very good 128 reviews.\n‎Sawahan‬ • ‎3.2 km from centre‬.\n1 bed.\n631 AED.\nIncludes taxes and charges.\nFree cancellation.\nNo prepayment needed.",
+        "property": {
+          "mainPhotoId": 589899011,
+          "isFirstPage": true,
+          "checkout": {
+            "fromTime": "00:00",
+            "untilTime": "12:00"
+          },
+          "reviewScoreWord": "Very good",
+          "id": 1409960,
+          "currency": "IDR",
+          "latitude": -7.26414776899925,
+          "reviewCount": 128,
+          "wishlistName": "Surabaya",
+          "rankingPosition": 15,
+          "blockIds": [
+            "140996009_242483913_2_1_0_38713"
+          ],
+          "ufi": -2698521,
+          "priceBreakdown": {
+            "taxExceptions": [],
+            "benefitBadges": [],
+            "grossPrice": {
+              "currency": "AED",
+              "value": 631.320006144513
+            }
+          },
+          "accuratePropertyClass": 4,
+          "checkin": {
+            "fromTime": "14:00",
+            "untilTime": "00:00"
+          },
+          "checkinDate": "2025-03-16",
+          "photoUrls": [
+            "https://cf.bstatic.com/xdata/images/hotel/square500/589899011.jpg?k=13db84bbbe9583a092570ec9d778223c4a8350a5d6482c875d4abbb5e7c3ebad&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/square1024/589899011.jpg?k=13db84bbbe9583a092570ec9d778223c4a8350a5d6482c875d4abbb5e7c3ebad&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/square2000/589899011.jpg?k=13db84bbbe9583a092570ec9d778223c4a8350a5d6482c875d4abbb5e7c3ebad&o="
+          ],
+          "qualityClass": 0,
+          "position": 15,
+          "optOutFromGalleryChanges": 0,
+          "reviewScore": 8.1,
+          "countryCode": "id",
+          "name": "Holiday Inn Express Surabaya CenterPoint by IHG",
+          "propertyClass": 4,
+          "isPreferred": true,
+          "checkoutDate": "2025-03-20",
+          "longitude": 112.730671316385
+        }
+      },
+      {
+        "hotel_id": 9443800,
+        "accessibilityLabel": "Surabaya River View Hotel.\n3 out of 5 stars.\n8.3 Very good 565 reviews.\n‎Genteng‬ • ‎4 km from centre‬.\nEarly 2025 Deal.\n Hotel room : 2 beds.\nOriginal price 792 AED. Current price 408 AED..\nIncludes taxes and charges.",
+        "property": {
+          "latitude": -7.256231,
+          "currency": "IDR",
+          "reviewCount": 565,
+          "rankingPosition": 16,
+          "wishlistName": "Surabaya",
+          "reviewScoreWord": "Very good",
+          "checkout": {
+            "fromTime": "12:00",
+            "untilTime": "12:00"
+          },
+          "id": 9443800,
+          "mainPhotoId": 424052252,
+          "isFirstPage": true,
+          "propertyClass": 3,
+          "isPreferred": true,
+          "checkoutDate": "2025-03-20",
+          "longitude": 112.740814,
+          "qualityClass": 0,
+          "position": 16,
+          "optOutFromGalleryChanges": 1,
+          "countryCode": "id",
+          "reviewScore": 8.3,
+          "name": "Surabaya River View Hotel",
+          "priceBreakdown": {
+            "taxExceptions": [],
+            "benefitBadges": [
+              {
+                "variant": "constructive",
+                "explanation": "Early 2025 Deal",
+                "text": "Early 2025 Deal",
+                "identifier": "Early Year Deals"
+              }
+            ],
+            "strikethroughPrice": {
+              "value": 791.787852203274,
+              "currency": "AED"
+            },
+            "grossPrice": {
+              "currency": "AED",
+              "value": 407.770743884686
+            }
+          },
+          "accuratePropertyClass": 3,
+          "checkin": {
+            "untilTime": "00:00",
+            "fromTime": "14:00"
+          },
+          "photoUrls": [
+            "https://cf.bstatic.com/xdata/images/hotel/square500/424052252.jpg?k=67bcca3596946eeba0c03bc9f79ab481b28622b185a8053b704505354bae7da0&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/square1024/424052252.jpg?k=67bcca3596946eeba0c03bc9f79ab481b28622b185a8053b704505354bae7da0&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/square2000/424052252.jpg?k=67bcca3596946eeba0c03bc9f79ab481b28622b185a8053b704505354bae7da0&o="
+          ],
+          "checkinDate": "2025-03-16",
+          "blockIds": [
+            "944380005_366583711_0_2_0_223506"
+          ],
+          "ufi": -2698521
+        }
+      },
+      {
+        "hotel_id": 1481266,
+        "accessibilityLabel": "Best Western Papilio Hotel.\n4 out of 5 stars.\n7.9 Good 158 reviews.\n‎Gayungan‬ • ‎4.4 km from centre‬.\n2 beds.\n499 AED.\nIncludes taxes and charges.\nFree cancellation.\nNo prepayment needed.",
+        "property": {
+          "latitude": -7.33144840876462,
+          "currency": "IDR",
+          "reviewCount": 158,
+          "rankingPosition": 17,
+          "wishlistName": "Surabaya",
+          "mainPhotoId": 622837448,
+          "isFirstPage": true,
+          "checkout": {
+            "fromTime": "00:00",
+            "untilTime": "12:00"
+          },
+          "reviewScoreWord": "Good",
+          "id": 1481266,
+          "position": 17,
+          "qualityClass": 0,
+          "optOutFromGalleryChanges": 0,
+          "countryCode": "id",
+          "reviewScore": 7.9,
+          "name": "Best Western Papilio Hotel",
+          "propertyClass": 4,
+          "checkoutDate": "2025-03-20",
+          "isPreferred": true,
+          "longitude": 112.730313241482,
+          "blockIds": [
+            "148126635_363526099_2_2_0"
+          ],
+          "ufi": -2698521,
+          "priceBreakdown": {
+            "grossPrice": {
+              "currency": "AED",
+              "value": 499.075152682655
+            },
+            "taxExceptions": [],
+            "benefitBadges": []
+          },
+          "accuratePropertyClass": 4,
+          "checkin": {
+            "fromTime": "14:00",
+            "untilTime": "00:00"
+          },
+          "photoUrls": [
+            "https://cf.bstatic.com/xdata/images/hotel/square500/622837448.jpg?k=8043370f3dc01f09926a1da193e1442d3789afaea2d224a68471fe905a4d87ac&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/square1024/622837448.jpg?k=8043370f3dc01f09926a1da193e1442d3789afaea2d224a68471fe905a4d87ac&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/square2000/622837448.jpg?k=8043370f3dc01f09926a1da193e1442d3789afaea2d224a68471fe905a4d87ac&o="
+          ],
+          "checkinDate": "2025-03-16"
+        }
+      },
+      {
+        "hotel_id": 2520726,
+        "accessibilityLabel": "Kokoon Hotel Surabaya.\n3 out of 5 stars.\n8.3 Very good 249 reviews.\n‎Pabean Cantikan‬ • ‎6 km from centre‬.\nLimited-time Deal.\n Hotel room : 1 bed.\nOriginal price 709 AED. Current price 496 AED..\nIncludes taxes and charges.",
+        "property": {
+          "rankingPosition": 18,
+          "wishlistName": "Surabaya",
+          "reviewCount": 249,
+          "latitude": -7.24063807016242,
+          "currency": "IDR",
+          "id": 2520726,
+          "reviewScoreWord": "Very good",
+          "checkout": {
+            "untilTime": "12:00",
+            "fromTime": "00:00"
+          },
+          "isFirstPage": true,
+          "mainPhotoId": 272395879,
+          "longitude": 112.740704114086,
+          "checkoutDate": "2025-03-20",
+          "isPreferred": true,
+          "propertyClass": 3,
+          "name": "Kokoon Hotel Surabaya",
+          "countryCode": "id",
+          "reviewScore": 8.3,
+          "position": 18,
+          "qualityClass": 0,
+          "optOutFromGalleryChanges": 1,
+          "photoUrls": [
+            "https://cf.bstatic.com/xdata/images/hotel/square500/272395879.jpg?k=61c95f81b44697cc3ea94ddaca190ed460037475cc294af43f4f096296dd16ce&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/square1024/272395879.jpg?k=61c95f81b44697cc3ea94ddaca190ed460037475cc294af43f4f096296dd16ce&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/square2000/272395879.jpg?k=61c95f81b44697cc3ea94ddaca190ed460037475cc294af43f4f096296dd16ce&o="
+          ],
+          "checkinDate": "2025-03-16",
+          "accuratePropertyClass": 3,
+          "checkin": {
+            "fromTime": "14:00",
+            "untilTime": "00:00"
+          },
+          "priceBreakdown": {
+            "grossPrice": {
+              "currency": "AED",
+              "value": 496.199656955281
+            },
+            "benefitBadges": [
+              {
+                "variant": "constructive",
+                "identifier": "Limited Time Deal",
+                "text": "Limited-time Deal",
+                "explanation": "Limited-time Deal"
+              }
+            ],
+            "taxExceptions": [],
+            "strikethroughPrice": {
+              "value": 708.856652793259,
+              "currency": "AED"
+            }
+          },
+          "ufi": -2698521,
+          "blockIds": [
+            "252072615_103718632_2_1_0_271816"
+          ]
+        }
+      },
+      {
+        "hotel_id": 334594,
+        "accessibilityLabel": "favehotel MEX Tunjungan Surabaya.\n3 out of 5 stars.\n7.1 Good 468 reviews.\n‎Tegalsari‬ • ‎2.8 km from centre‬.\nMobile-only price.\n Hotel room : 2 beds.\nOriginal price 333 AED. Current price 240 AED..\nIncludes taxes and charges.",
+        "property": {
+          "id": 334594,
+          "reviewScoreWord": "Good",
+          "checkout": {
+            "fromTime": "00:00",
+            "untilTime": "12:00"
+          },
+          "isFirstPage": true,
+          "mainPhotoId": 17174538,
+          "wishlistName": "Surabaya",
+          "rankingPosition": 19,
+          "reviewCount": 468,
+          "currency": "IDR",
+          "latitude": -7.26724656470871,
+          "photoUrls": [
+            "https://cf.bstatic.com/xdata/images/hotel/square500/17174538.jpg?k=2931196e8475a17438d84ccca599de1e4db726a3d995650ae975566342cb1f7a&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/square1024/17174538.jpg?k=2931196e8475a17438d84ccca599de1e4db726a3d995650ae975566342cb1f7a&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/square2000/17174538.jpg?k=2931196e8475a17438d84ccca599de1e4db726a3d995650ae975566342cb1f7a&o="
+          ],
+          "checkinDate": "2025-03-16",
+          "accuratePropertyClass": 3,
+          "checkin": {
+            "fromTime": "14:00",
+            "untilTime": "00:00"
+          },
+          "priceBreakdown": {
+            "grossPrice": {
+              "value": 239.56255768706,
+              "currency": "AED"
+            },
+            "strikethroughPrice": {
+              "currency": "AED",
+              "value": 332.725712454256
+            },
+            "taxExceptions": [],
+            "benefitBadges": [
+              {
+                "variant": "constructive",
+                "explanation": "Mobile-only price",
+                "text": "Mobile-only price",
+                "identifier": "Mobile Rate"
+              }
+            ]
+          },
+          "ufi": -2698521,
+          "blockIds": [
+            "33459401_337783293_0_2_0_242082"
+          ],
+          "longitude": 112.739730477333,
+          "isPreferred": true,
+          "checkoutDate": "2025-03-20",
+          "propertyClass": 3,
+          "name": "favehotel MEX Tunjungan Surabaya",
+          "reviewScore": 7.1,
+          "countryCode": "id",
+          "position": 19,
+          "qualityClass": 0,
+          "optOutFromGalleryChanges": 0
+        }
+      }
+    ],
+    "meta": [
+      {
+        "title": "380 properties"
+      }
+    ],
+    "appear": [
+      {
+        "id": "cma",
+        "component": {
+          "props": {
+            "fill": true,
+            "content": {
+              "props": {
+                "fitContentWidth": true,
+                "items": [
+                  {
+                    "props": {
+                      "component": {
+                        "props": {
+                          "items": [
+                            {
+                              "props": {
+                                "text": [
+                                  {
+                                    "font": "body_2",
+                                    "text": "Commission paid and other benefits may affect an accommodation's ranking."
+                                  },
+                                  {
+                                    "text": "  ",
+                                    "font": "strong_2",
+                                    "color": "foreground"
+                                  },
+                                  {
+                                    "text": "Find out more",
+                                    "linkActions": [
+                                      {
+                                        "props": {
+                                          "url": "booking://webview?url=https%3A%2F%2Fm.booking.com%2Fgeneral.en.html%3Faid%3D332731%3Btmpl%3Ddocs%2Fterms-and-conditions"
+                                        }
+                                      }
+                                    ],
+                                    "font": "body_2",
+                                    "color": "action_foreground"
+                                  }
+                                ]
+                              }
+                            }
+                          ],
+                          "spacing": "spacing_half"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "props": {}
+                  },
+                  {
+                    "props": {
+                      "component": {
+                        "props": {
+                          "variant": "tertiary_tinted",
+                          "tertiaryTintedColor": "foreground",
+                          "accessibilityLabel": "Close",
+                          "icon": "close"
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "contentUrl": "https://mobile-apps.booking.com/json/mobile.saba?route_path=saba-chat-entrypoint&add_bh_info=1&add_genius_percentage_value=1&add_ribbon_text=1&affiliate_id=332731&arrival_date=2025-03-16&autoextend=1&booked_x_times_for_dates=1&booked_x_times_threshold=1&categories_filter_additional_data=&change_popularity_sort_option_copy_tag=1&change_sort_options_copy_tags=1&check_excluded_charge_or_tax=1&check_flexible_dates=1&check_is_candidate_wholesaler=1&currency_code=AED&dark_mode=1&deeplink_sec_since_click=168567.9046729803&departure_date=2025-03-20&dest_ids=-2698521&device_id=57d11ec8bad14e119e4c15a86202c23f&distance_unit=metric&dl_sr_adoption=1&dotd=2&exposure_api_version=2.17&fix_dotd=1&flex_window=0&generate_map_bounding_box=1&get_cny_campaign_banner=1&get_skiing_info=1&guest_qty=1&include_amazon_banner=1&include_apartment_config=1&include_badges_in_price_breakdown=1&include_beach_information=1&include_bh_quality_classification=1&include_block_ids=1&include_bsb_info=1&include_bwallet_hotel_eligibility=1&include_composite_breakdown=1&include_cpc_non_trader_copy=1&include_excluded_charges_detail=1&include_free_cancellation=1&include_genius_badge=1&include_last_reservation=1&include_nr_bookings_best_range_message=1&include_nr_bookings_today=1&include_offered_bed_types=1&include_preview_cards=1&include_rack_rate_savings=1&include_rtb=1&include_ski_information=1&languagecode=en&location_source=recents&mark_first_highlighted_hotel=1&min_saba_version=31&network_type=wifi&new_segments_carousel=1&offset=0&optimized_call=1&outcome=search_results&page_define_enabled=1&pref_match=0&reason=change_sort_options&remove_wishlist_padding=1&room_qty=1&rows=auto&saba=1&saba_payload_root=1&saba_version=50&sb_calendar_open=1&search_type=city&send_ranking_version=1&send_search_id=1&show_beach_filter_badge=1&show_city_distance=1&show_distance_to_beach=1&show_distance_to_nearest_public_transport=1&show_genius_free_breakfast=0&show_if_mobile_deal=1&show_negotiated_rates=1&show_no_prepayment=1&show_policy=1&show_review_score_breakdowns=1&show_selected_filter_values=1&show_soldout=1&sort_by=auto&sort_by_source=sort_options&sort_genius_new_copy=1&source=search_results&temperature_unit=c&travel_purpose=&unfiltered_count_enabled=1&units=metric&use_dest_based_list_creation=1&use_direct_payment=1&user_os=15.5&user_version=36.8-iphone&categories_filter=price%3A%3AAED--&children_qty=1&children_age=0&page=search-results"
+      },
+      {
+        "id": "signin_now",
+        "component": {
+          "props": {
+            "title": "Sign in and save money",
+            "text": "Get instant access to our Genius loyalty programme and enjoy discounts at properties worldwide."
+          }
+        }
+      }
+    ]
+  }
+}
