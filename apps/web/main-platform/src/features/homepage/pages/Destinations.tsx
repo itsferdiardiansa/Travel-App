@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import SectionContainer from '@/features/homepage/components/section-container'
 
 const destinationData = [
   {
@@ -20,17 +21,15 @@ const destinationData = [
 
 export const Destinations = () => {
   return (
-    <div className="flex flex-col gap-8 mb-8">
-      <div className="text-2xl font-black">
-        <h2>
+    <SectionContainer
+      title={
+        <>
           Popular
           <br />
           Destinations
-        </h2>
-
-        <div className="w-24 h-2 mt-4 border-b-4 border-neutral-600"></div>
-      </div>
-
+        </>
+      }
+    >
       <div className="flex gap-4">
         {destinationData.map((item, index) => (
           <div
@@ -60,6 +59,6 @@ export const Destinations = () => {
           </div>
         ))}
       </div>
-    </div>
+    </SectionContainer>
   )
 }

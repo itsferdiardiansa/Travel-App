@@ -12,7 +12,12 @@ export default function HomePage() {
       <TravelSearchBar />
       <Destinations />
 
-      <HotelHighlights title="Hotels Nearby" />
+      <HotelHighlights title="Hotels Nearby in Surabaya" />
+
+      <HotelHighlights
+        title="Worth to stay"
+        subTitle="Save on stays for 21 March - 23 March"
+      />
     </>
   )
 }

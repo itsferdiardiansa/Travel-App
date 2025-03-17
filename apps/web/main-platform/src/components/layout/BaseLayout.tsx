@@ -8,7 +8,7 @@ export const BaseLayout = ({ children }: PropsWithChildren) => {
         <Navbar />
       </div>
 
-      <div className="max-w-screen-xl mx-auto relative w-full text-sm flex flex-col gap-10">
+      <div className="max-w-screen-xl mx-auto relative w-full text-sm flex flex-col gap-10 py-[75px]">
         {children}
       </div>
     </div>
