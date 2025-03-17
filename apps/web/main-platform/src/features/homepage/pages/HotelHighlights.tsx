@@ -12,7 +12,7 @@ export const HotelHighlights = ({ title }: HotelHightlightProps) => {
   } = hotelData
 
   return (
-    <div className="flex flex-col gap-8 mb-8">
+    <div className="flex flex-col gap-8">
       <div className="text-2xl font-black">
         <h2>{title}</h2>
 
