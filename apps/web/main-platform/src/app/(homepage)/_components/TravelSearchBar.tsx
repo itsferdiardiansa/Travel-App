@@ -1,8 +1,6 @@
-import {
-  SearchTab,
-  SearchOptions,
-} from '@/features/homepage/components/travel-search'
-import FlightSearchBox from '@/features/homepage/components/flight-search-box'
+import { SearchTab } from '@/features/search/components/travel-search'
+import FlightSearchBar from '@/features/flights/components/flight-search-bar'
+// import HotelSearchBar from '@/features/hotels/components/hotel-search-bar'
 
 export const TravelSearchBar = () => {
   return (
@@ -15,10 +13,9 @@ export const TravelSearchBar = () => {
         </div>
 
         <div className="mt-6">
-          <SearchOptions />
+          {/* <HotelSearchBar /> */}
 
-          {/* <HotelsSearchBox /> */}
-          <FlightSearchBox />
+          <FlightSearchBar />
         </div>
       </div>
     </div>

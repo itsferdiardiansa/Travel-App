@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import SectionContainer from '@/features/homepage/components/section-container'
+import SectionContainer from '@/components/ui/section-container'
 
 const destinationData = [
   {

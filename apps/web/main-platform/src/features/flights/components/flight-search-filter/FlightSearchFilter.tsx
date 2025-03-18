@@ -1,7 +1,7 @@
 import { FaChevronDown, FaRoute } from 'react-icons/fa'
 import { MdFlightClass } from 'react-icons/md'
 
-export const SearchOptions = () => {
+export default function FlightSearchFilter() {
   return (
     <div className="flex justify-end mb-4 px-6 gap-4">
       <div className="flex items-center font-bold border border-slate-200 rounded-md py-1.5 px-3 bg-gray-400/30">

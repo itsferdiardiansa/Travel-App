@@ -6,7 +6,7 @@ import countryCodes from '@/constants/isoCountryCodes'
 import formatCurrency from '@/utils/formatCurrency'
 import generateSlug from '@/utils/generateSlug'
 
-export default function PropertyCard({
+export default function HotelShowcaseCard({
   id,
   countryCode,
   wishlistName,

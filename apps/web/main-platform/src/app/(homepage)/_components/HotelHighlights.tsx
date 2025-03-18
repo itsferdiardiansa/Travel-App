@@ -1,7 +1,7 @@
 import SectionContainer, {
   type SectionContainerProps,
-} from '@/features/homepage/components/section-container'
-import { HotelShowcaseCard } from '@/features/homepage/components'
+} from '@/components/ui/section-container'
+import HotelShowcaseCard from '@/features/hotels/components/hotel-showcase-card'
 
 import hotelData from '@/dummy-data/hotels.json'
 

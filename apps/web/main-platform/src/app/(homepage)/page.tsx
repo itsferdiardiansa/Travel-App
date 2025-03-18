@@ -3,7 +3,7 @@ import {
   TravelSearchBar,
   Destinations,
   HotelHighlights,
-} from '@/features/homepage/pages'
+} from './_components'
 
 export default function HomePage() {
   return (
