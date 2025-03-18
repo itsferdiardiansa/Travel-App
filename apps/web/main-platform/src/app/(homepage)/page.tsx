@@ -17,6 +17,7 @@ export default function HomePage() {
       <HotelHighlights
         title="Worth to stay"
         subTitle="Save on stays for 21 March - 23 March"
+        saveOnCollection={true}
       />
     </>
   )

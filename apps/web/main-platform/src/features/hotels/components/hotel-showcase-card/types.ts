@@ -114,6 +114,9 @@ export type HotelProperty = {
 
   /** Hotel's position in the search results */
   position: number
+
+  /** Hotel is on collection */
+  onCollection?: boolean
 }
 
 /**
@@ -121,11 +124,17 @@ export type HotelProperty = {
  */
 export type HotelShowcase = Readonly<{
   /** Unique identifier for the hotel */
-  hotel_id: number
+  hotel_id?: number
 
   /** Accessibility label containing key hotel details */
-  accessibilityLabel: string
+  accessibilityLabel?: string
 
   /** Detailed hotel property information */
   property: HotelProperty
+
+  /** Show save on collections */
+  saveOnCollection?: boolean
+
+  /** Save on collections callback */
+  onSaveCollection?: () => void
 }>

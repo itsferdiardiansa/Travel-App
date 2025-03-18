@@ -62,6 +62,7 @@
         "property": {
           "position": 1,
           "qualityClass": 0,
+          "onCollection": true,
           "optOutFromGalleryChanges": 0,
           "reviewScore": 7.7,
           "countryCode": "id",

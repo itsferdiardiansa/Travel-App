@@ -1,24 +1,30 @@
+'use client'
+
 import Image from 'next/image'
 import Link from 'next/link'
-import type { HotelProperty as HotelShowcaseProps } from './types'
-import { FaStar } from 'react-icons/fa6'
+import type { HotelShowcase as HotelShowcaseProps } from './types'
+import { FaStar, FaRegHeart, FaHeart } from 'react-icons/fa6'
 import countryCodes from '@/constants/isoCountryCodes'
-import formatCurrency from '@/utils/formatCurrency'
-import generateSlug from '@/utils/generateSlug'
+import { formatCurrency, generateSlug } from '@/utils'
 
 export default function HotelShowcaseCard({
-  id,
-  countryCode,
-  wishlistName,
-  name,
-  photoUrls,
-  reviewScoreWord,
-  reviewScore,
-  reviewCount,
-  priceBreakdown,
-  checkinDate,
-  checkoutDate,
-  blockIds,
+  property: {
+    id,
+    countryCode,
+    wishlistName,
+    name,
+    photoUrls,
+    reviewScoreWord,
+    reviewScore,
+    reviewCount,
+    priceBreakdown,
+    checkinDate,
+    checkoutDate,
+    blockIds,
+    onCollection,
+  },
+  saveOnCollection = false,
+  onSaveCollection = () => {},
 }: HotelShowcaseProps) {
   const countryName = countryCodes[countryCode.toUpperCase()]
   const [mainPhotoUrl] = photoUrls
@@ -37,8 +43,12 @@ export default function HotelShowcaseCard({
     blockId,
   }
 
+  const handleSaveCollection = () => {
+    onSaveCollection()
+  }
+
   return (
-    <div className="w-[calc((100%-(16px*3))/4)] rounded-md overflow-hidden border border-neutral-200 shadow-md shadow-neutral-200">
+    <div className="w-[calc((100%-(16px*3))/4)] relative rounded-md overflow-hidden border border-neutral-200 shadow-md shadow-neutral-200">
       <Link
         className="h-full flex flex-col items-stretch justify-stretch"
         href={{ pathname, query }}
@@ -125,6 +135,21 @@ export default function HotelShowcaseCard({
           </div>
         </div>
       </Link>
+
+      {saveOnCollection && (
+        <div className="w-auto absolute top-2 right-2 z-9">
+          <div
+            className="p-2 rounded-full bg-neutral-50 hover:bg-neutral-200 cursor-pointer flex items-center"
+            onClick={handleSaveCollection}
+          >
+            {onCollection ? (
+              <FaHeart className="text-lg text-neutral-700" />
+            ) : (
+              <FaRegHeart className="text-lg text-neutral-700" />
+            )}
+          </div>
+        </div>
+      )}
     </div>
   )
 }
