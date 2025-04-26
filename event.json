@@ -1,0 +1,25 @@
+{
+  "action": "opened",
+  "number": 1,
+  "pull_request": {
+    "title": "feat: add button",
+    "head": {
+      "ref": "feat/ui"
+    },
+    "base": {
+      "ref": "main",
+      "repo": {
+        "name": "itsferdiardiansa/Travel-App"
+      },
+      "user": {
+        "login": "itsferdiardiansa"
+      }
+    }
+  },
+  "repository": {
+    "full_name": "itsferdiardiansa/Travel-App"
+  },
+  "sender": {
+    "login": "itsferdiardiansa"
+  }
+}
