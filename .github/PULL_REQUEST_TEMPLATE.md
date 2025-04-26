@@ -20,10 +20,6 @@ Explain the reason for the change if it's not immediately obvious.
 - What does this PR do?
 - Why are these changes necessary?
 
-## Related Issues
-
-Closes: # (issue)
-
 ## Affected Projects
 
 List all projects/packages/apps/libs affected:
@@ -31,7 +27,3 @@ List all projects/packages/apps/libs affected:
 - [ ] apps/your-app-name
 - [ ] libs/your-lib-name
 - [ ] other...
-
-## Screenshots / Recordings (if applicable)
-
-<!-- Include before/after screenshots, or videos if it makes sense -->
