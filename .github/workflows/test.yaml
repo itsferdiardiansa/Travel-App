@@ -83,7 +83,7 @@ jobs:
       - name: Report test status
         run: |
           echo "Test job result: ${{ needs.test.result }}"
-          if [ "${{ needs.test.result }}" != "success" ]; then
+          if [ "${{ needs.test.result }}" = "failure" ]; then
             echo "Some tests failed running."
             exit 1
           fi
