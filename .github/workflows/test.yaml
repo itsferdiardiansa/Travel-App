@@ -1,0 +1,89 @@
+name: test
+
+on:
+  push:
+    branches-ignore:
+      - main
+
+concurrency: 
+  group: ${{ github.workflow }}-${{ github.event_name }}-${{ github.head_ref || github.ref_name }}
+  cancel-in-progress: true
+
+permissions:
+  actions: read
+  contents: read
+
+jobs:
+  pre-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup
+        uses: ./.github/actions/setup-node
+
+      - name: Type check
+        run: pnpm type-check
+      
+      - name: Lint
+        run: pnpm lint
+       
+  changes:
+    runs-on: ubuntu-latest
+    outputs:
+      projects: ${{ steps.set-projects.outputs.projects }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup
+        uses: ./.github/actions/setup-node
+
+      - name: Find changed projects
+        id: set-projects
+        run: |
+          SELECTED_PROJECTS=$(npx ts-node ./scripts/chunk-projects.ts)
+          echo "projects=$SELECTED_PROJECTS" >> $GITHUB_OUTPUT
+  
+  test:
+    if: ${{ needs.changes.outputs.projects != '[]' }}
+    runs-on: ${{ matrix.runner }}
+    name: >-
+      ${{ 
+        matrix.chunkNumber && matrix.packageName 
+          && format('{0} - {1}', matrix.chunkNumber, matrix.packageName) 
+          || 'Skipped' 
+      }}
+    needs: [pre-test, changes]
+    strategy:
+      fail-fast: false
+      matrix:
+        include: ${{ fromJson(needs.changes.outputs.projects) }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup
+        uses: ./.github/actions/setup-node
+        with:
+          node-version: ${{ matrix.nodeVersion }}
+
+      - name: Test ${{ matrix.packageName }}
+        run: npx nx run ${{ matrix.packageName }}:${{ matrix.testScript }}
+  
+  done:
+    runs-on: ubuntu-latest
+    if: always()
+    needs: [test]
+    steps:
+      - name: Report test status
+        run: |
+          echo "Test job result: ${{ needs.test.result }}"
+          if [ "${{ needs.test.result }}" != "success" ]; then
+            echo "Some tests failed running."
+            exit 1
+          fi
