@@ -1,0 +1,21 @@
+{
+  "name": "@tap/ui",
+  "version": "1.0.0",
+  "description": "UI package for web-app",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\""
+  },
+  "keywords": [
+    "react-ui",
+    "tap-ui",
+    "tailwindcss",
+    "typescript"
+  ],
+  "author": {
+    "email": "ferdiardiansa@gmail.com",
+    "name": "itsferdiardiansa"
+  },
+  "license": "ISC",
+  "packageManager": "pnpm@10.8.1"
+}

@@ -1,0 +1,29 @@
+name: find changes
+on:
+  workflow_call:
+    outputs:
+      projects:
+        description: Selected affacted projects
+        value: ${{ jobs.changes.outputs.projects }}
+
+jobs:
+  affected-projects:
+    runs-on: ubuntu-latest
+    outputs:
+      projects: ${{ steps.set-projects.outputs.projects }}
+    env:
+      NX_BASE: ${{ github.event.pull_request.base.sha || github.event.before }}
+      NX_HEAD: ${{ github.event.pull_request.head.sha || github.sha }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup
+        uses: ./.github/actions/setup-node
+
+      - name: Find changed projects
+        id: set-projects
+        run: |
+          SELECTED_PROJECTS=$(npx ts-node ./scripts/chunk-projects.ts)
+          echo "projects=$SELECTED_PROJECTS" >> $GITHUB_OUTPUT
