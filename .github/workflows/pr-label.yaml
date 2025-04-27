@@ -75,7 +75,7 @@ jobs:
           echo "labels=$UNIQUE_LABELS" >> $GITHUB_OUTPUT
 
       - name: Apply labels
-        uses: actions-ecosystem/action-add-labels@v1
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          labels: ${{ steps.label.outputs.labels }}
+        run: |
+          gh pr edit ${{ github.event.pull_request.number }} --add-label "${{ steps.label.outputs.labels }}"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
