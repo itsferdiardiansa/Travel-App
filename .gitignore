@@ -34,9 +34,16 @@ yarn-error.log
 testem.log
 /typings
 
+# Env
+.env
+.env.*
+!.env.example
+
 # System Files
 .DS_Store
 Thumbs.db
 
 .nx/cache
 .nx/workspace-data
+
+.next

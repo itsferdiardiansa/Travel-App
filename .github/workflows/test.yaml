@@ -51,12 +51,7 @@ jobs:
   test:
     if: ${{ needs.changes.outputs.projects != '[]' }}
     runs-on: ${{ matrix.runner }}
-    name: >-
-      ${{ 
-        matrix.chunkNumber && matrix.packageName 
-          && format('{0} - {1}', matrix.chunkNumber, matrix.packageName) 
-          || 'Skipped' 
-      }}
+    name: ${{ format('{0} - {1}', matrix.chunkNumber, matrix.packageName) }}
     needs: [pre-test, changes]
     strategy:
       fail-fast: false

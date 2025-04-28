@@ -1,0 +1,95 @@
+name: Auto Label PRs
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+concurrency:
+  group: auto-label-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+jobs:
+  auto-label:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: ./.github/actions/setup-node
+
+      - name: Get changed files
+        id: files
+        run: |
+          echo "CHANGED_FILES<<EOF" >> $GITHUB_ENV
+          gh pr view ${{ github.event.pull_request.number }} --json files --jq '.files[].path' >> $GITHUB_ENV
+          echo "EOF" >> $GITHUB_ENV
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Determine labels
+        id: label
+        run: |
+          LABELS=()
+
+          for file in $CHANGED_FILES; do
+            if [[ "$file" == apps/api/* ]]; then
+              LABELS+=("apps:api")
+            elif [[ "$file" == apps/web/* ]]; then
+              LABELS+=("apps:web")
+            fi
+
+            if [[ "$file" == packages/ui/* ]]; then
+              LABELS+=("packages:ui")
+            fi
+
+            if [[ "$file" == docs/** || ( "$file" == *.md || "$file" == *.mdx ) && "$file" != .github/** ]]; then
+              LABELS+=("docs")
+            fi
+
+            if [[ "$file" == .github/** ]]; then
+              LABELS+=("ci")
+            fi
+          done
+
+          TITLE="${{ github.event.pull_request.title }}"
+          if [[ "$TITLE" =~ (fix|bug) ]]; then
+            LABELS+=("bug")
+          fi
+          if [[ "$TITLE" =~ (chore) ]]; then
+            LABELS+=("chore")
+          fi
+          if [[ "$TITLE" =~ (ci) ]]; then
+            LABELS+=("ci")
+          fi
+          if [[ "$TITLE" =~ (docs) ]]; then
+            LABELS+=("docs")
+          fi
+          if [[ "$TITLE" =~ (enhancement|feat|feature) ]]; then
+            LABELS+=("feature")
+          fi
+          if [[ "$TITLE" =~ (perf|performance) ]]; then
+            LABELS+=("performance")
+          fi
+          if [[ "$TITLE" =~ (refactor) ]]; then
+            LABELS+=("refactor")
+          fi
+          if [[ "$TITLE" =~ (test|testing) ]]; then
+            LABELS+=("test")
+          fi
+
+          # Deduplicate
+          UNIQUE_LABELS=$(printf "%s\n" "${LABELS[@]}" | sort -u | paste -sd "," -)
+
+          echo "labels=$UNIQUE_LABELS" >> $GITHUB_OUTPUT
+
+      - name: Apply labels
+        if: steps.label.outputs.labels != ''
+        run: |
+          gh pr edit ${{ github.event.pull_request.number }} --add-label "${{ steps.label.outputs.labels }}"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
