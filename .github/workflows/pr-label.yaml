@@ -37,30 +37,25 @@ jobs:
           LABELS=()
 
           for file in $CHANGED_FILES; do
-            # Apps
             if [[ "$file" == apps/api/* ]]; then
               LABELS+=("apps:api")
             elif [[ "$file" == apps/web/* ]]; then
               LABELS+=("apps:web")
             fi
 
-            # Packages
             if [[ "$file" == packages/ui/* ]]; then
               LABELS+=("packages:ui")
             fi
 
-            # Docs related
-            if [[ "$file" == docs/** || "$file" == *.md || "$file" == *.mdx ]]; then
+            if [[ "$file" == docs/** || ( "$file" == *.md || "$file" == *.mdx ) && "$file" != .github/** ]]; then
               LABELS+=("docs")
             fi
 
-            # CI related
             if [[ "$file" == .github/** ]]; then
               LABELS+=("ci")
             fi
           done
 
-          # Detect based on PR title
           TITLE="${{ github.event.pull_request.title }}"
           if [[ "$TITLE" =~ (fix|bug) ]]; then
             LABELS+=("bug")
